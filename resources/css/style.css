@@ -77,6 +77,8 @@ body {
   background-repeat: no-repeat;
   height: 500px;
   text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 .locationslide {
   display: inline-block;
