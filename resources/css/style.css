@@ -22,3 +22,62 @@ body {
   font-family: helvetica;
   margin: auto 10px;
 }
+.missioncontainer {
+  background-image: url(../../resources/images/img-mission-background.jpg);
+  background-size: 1200px 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 700px;
+}
+#mission {
+  display: block;
+  background-color: black;
+  margin: auto;
+  width: 100%;
+  text-align: center;
+}
+#featured {
+  align-items: center;
+  justify-content: center;
+}
+.featuredheader {
+  text-align: center;
+  flex: none;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.item {
+  text-align: center;
+  margin: 10px;
+}
+.item h4 {
+  margin: 10px;
+}
+#locations {
+  background-image: url(../../resources/images/img-locations-background.jpg);
+  background-size: 1200px 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
+  text-align: center;
+}
+.locationslide {
+  display: inline-block;
+  background-color: black;
+  text-align: center;
+  width: 300px;
+  margin: 15px 40px;
+}
+.locationheader {
+
+}
+.locationheader h2 {
+  margin: 0px;
+}
